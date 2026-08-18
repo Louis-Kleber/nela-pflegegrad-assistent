@@ -119,7 +119,7 @@ Konten bei einem Neustart der Anwendung zurückgesetzt.
 
 ## Lokal starten
 
-Voraussetzung: **Python 3.9 oder neuer**.
+Voraussetzung: **Voraussetzung: **Python 3.10 oder neuer** (von Streamlit 1.57 vorausgesetzt).**.
 
 **1. Repository herunterladen**
 
