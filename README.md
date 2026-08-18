@@ -15,20 +15,37 @@ Pflegeanspruchs zu führen.
 
 ## Funktionsumfang
 
-- **Pflegegrad-Rechner** – Fragebogen nach dem Punktesystem des NBA
-  (Neues Begutachtungsassessment), ohne Anmeldung nutzbar
-- **Leistungscheck** – zeigt auf Basis des ermittelten Pflegegrads die
-  zustehenden Leistungen und rechnet den monatlichen Gesamtbetrag aus
+## Funktionsumfang
+
+- **Schneller Leistungscheck** – Ein kurzer Fragebogen aus sieben Fragen,
+  ohne Anmeldung direkt auf der Startseite nutzbar. Die Antworten werden nach
+  dem Punktesystem des NBA gewichtet (Neues Begutachtungsassessment – das
+  offizielle Verfahren, mit dem der Medizinische Dienst seit 2017 den
+  Pflegegrad feststellt) und ergeben eine erste Einschätzung, welcher
+  Pflegegrad in Frage kommt. So sieht der Nutzer nach zwei Minuten, ob Nela
+  für ihn überhaupt relevant ist – ohne vorher Daten preiszugeben.
+
+- **Detaillierter Pflegegrad-Rechner** – Innerhalb 7 Seiten werden dem Nutzer Fragen zur aktuellen Pflegesituation gestellt,
+- die der Nutzer intuitiv beantworten kann.
+  Daraus wird der Pflegegrad nach § 15 SGB XI ermittelt: sechs gewichtete
+  Module ergeben insgesamt 100 Punkte, feste Schwellenwerte bestimmen den Grad.
+  Zwei gesetzliche Sonderfälle sind berücksichtigt – die Mindestdauer von sechs
+  Monaten (§ 14 I) und die besondere Bedarfskonstellation, die direkt zu
+  Pflegegrad 5 führt (§ 15 IV). Anschließend zeigt die App, welche Leistungen
+  bei diesem Pflegegrad zustehen, und rechnet den monatlichen Gesamtbetrag aus.
+
 - **KI-Ablaufplan** – formuliert aus den Top-3-Empfehlungen einen zeitlich
   gegliederten Plan (Woche 1 / Woche 2–3 / danach) über Google Gemini.
   In der öffentlichen Demo ist bewusst kein API-Key hinterlegt, daher greift
   dort der Fallback (siehe unten) – die Anbindung selbst ist vollständig
-  implementiert
-- **Nutzerkonten** – Registrierung und Login mit gehashten Passwörtern,
-  persönliches Dashboard, Speichern des Pflegegrad-Ergebnisses im Profil
-- **Rechtliches** – Datenschutzerklärung, AGB und Einwilligungsverwaltung
-  direkt in der App
+  implementiert.
 
+- **Nutzerkonten** – Registrierung und Login mit gehashten Passwörtern,
+  persönliches Dashboard und die Möglichkeit, das Pflegegrad-Ergebnis im
+  Profil zu speichern, statt den Fragebogen jedes Mal neu auszufüllen.
+
+- **Rechtliches** – Datenschutzerklärung, AGB und eine Einwilligungsverwaltung
+  direkt in der App, inklusive der Möglichkeit, das eigene Konto zu löschen.
 ## Technische Umsetzung
 
 | Bereich | Umsetzung |
