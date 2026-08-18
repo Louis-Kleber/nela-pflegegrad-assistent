@@ -1,4 +1,6 @@
 # Nela – Digitaler Assistent für pflegende Angehörige
+
+
 ## Das Problem
 
 In Deutschland gibt es ca. 6 Mio. Pflegebedürftige; ihre Pflegeangehörigen
@@ -13,7 +15,7 @@ bürokratischen Hürden radikal zu vereinfachen und den Nutzer Schritt für
 Schritt bei der Hand zu nehmen und ganz intuitiv durch den Prozess des
 Pflegeanspruchs zu führen.
 
-## Funktionsumfang
+**➡️ Live-Demo:** https://nela-pflegegrad.streamlit.app/
 
 ## Funktionsumfang
 
