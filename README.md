@@ -116,3 +116,36 @@ Von Christian stammen Anmeldung, Registrierung und die rechtlichen Seiten.
 Nela ist ein Uniprojekt und ersetzt keine Pflegeberatung. Die Ergebnisse
 sind Orientierungswerte ohne Rechtsanspruch. In der Live-Demo werden angelegte
 Konten bei einem Neustart der Anwendung zurückgesetzt.
+
+## Lokal starten
+
+Voraussetzung: **Python 3.9 oder neuer**.
+
+**1. Repository herunterladen**
+
+```bash
+git clone https://github.com/Louis-Kleber/nela-pflegegrad-assistent.git
+cd nela-pflegegrad-assistent
+```
+
+Ohne Git geht es auch über den grünen Button *Code* → *Download ZIP*.
+
+**2. Virtuelle Umgebung anlegen und aktivieren**
+
+```bash
+python -m venv venv
+```
+
+```bash
+venv\Scripts\activate          # Windows
+source venv/bin/activate       # macOS / Linux
+```
+
+**3. Abhängigkeiten installieren und App starten**
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
+
+Die App öffnet sich automatisch im Browser unter `http://localhost:8501`.
