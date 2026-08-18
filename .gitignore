@@ -1,0 +1,18 @@
+# Geheimnisse – niemals ins Repository
+.streamlit/secrets.toml
+
+# Laufzeitdaten mit echten Nutzerangaben
+users_db.json
+daten/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Werkzeug- und Systemdateien
+.claude/
+__MACOSX/
+.DS_Store
+Thumbs.db
