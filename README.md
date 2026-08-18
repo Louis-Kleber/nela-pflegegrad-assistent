@@ -26,6 +26,7 @@ Pflegeanspruchs zu führen.
   Pflegegrad feststellt) und ergeben eine erste Einschätzung, welcher
   Pflegegrad in Frage kommt. So sieht der Nutzer nach zwei Minuten, ob Nela
   für ihn überhaupt relevant ist – ohne vorher Daten preiszugeben.
+  
 <img width="1368" height="1271" alt="Screenshot 2026-08-18 165156" src="https://github.com/user-attachments/assets/5599c9da-d442-484d-baf3-1a411fec4a0f" />
 
 
@@ -37,7 +38,9 @@ Pflegeanspruchs zu führen.
   Monaten (§ 14 I) und die besondere Bedarfskonstellation, die direkt zu
   Pflegegrad 5 führt (§ 15 IV). Anschließend zeigt die App, welche Leistungen
   bei diesem Pflegegrad zustehen, und rechnet den monatlichen Gesamtbetrag aus.
+  
 <img width="1188" height="1250" alt="Screenshot 2026-08-18 165426" src="https://github.com/user-attachments/assets/54a27d31-13a1-4a80-a033-e0bcdfddd1e1" />
+
 <img width="1083" height="1252" alt="Screenshot 2026-08-18 165527" src="https://github.com/user-attachments/assets/7ba9a350-bf49-4c26-bbfd-56e1ed007e65" />
 
 
