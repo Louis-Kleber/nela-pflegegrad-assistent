@@ -17,7 +17,7 @@ Pflegeanspruchs zu führen.
 
 **➡️ Live-Demo:** https://nela-pflegegrad.streamlit.app/
 > **Hinweis:** Die Demo läuft auf der kostenlosen Streamlit Community Cloud.
-> Wird die App längere Zeit nicht aufgerufen, legt sie sich schlafen – der
+> Wird die App längere Zeit nicht aufgerufen, legt sie sich schlafen, der
 > erste Aufruf braucht dann rund 30 Sekunden und einen Klick auf den
 > Aufwach-Knopf.
 
